@@ -1,0 +1,213 @@
+/*********************
+* 	 Menu Styles 	 *
+*********************/
+.navbar-toggler{
+    background-color:white !important;
+} 
+img.bem-header{
+	width: 35%;
+} 
+nav.navbar{
+	background: black;
+	color: white;
+}
+div.collapse.navbar-collapse a{ 
+	background: #006FBC;
+	border-radius: 5px;
+	margin-right: 10px;
+	margin-bottom: 10px;   
+	text-align: center;
+	font-weight: bolder;
+	font-size: 15px;
+	letter-spacing: 1px;
+	overflow: hidden;
+  	text-overflow: ellipsis;
+  	white-space: nowrap;
+
+} 
+div.collapse.navbar-collapse a:hover{
+	background:  #005D9E; 
+}
+a#navbarDropdown.nav-link.dropdown-toggle{ 
+	color: white !important; 
+} 
+a.nav-link{
+	color: white !important;  
+}
+div.dropdown-menu.dropdown-menu-right.show{
+	background: #007FD8;
+	color: white !important;
+}
+a.dropdown-item{
+	color: white;
+}
+/********************
+*   header Styles   *
+********************/
+header{
+	margin-bottom: 100px;
+}
+.masthead {  
+  
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bem-search{
+	 align-content:center; 
+	 background: rgb(255, 255, 255, 0.8) none repeat scroll 0% 0% !important; 
+	 border-radius: 4px !important; 
+	 padding-right: 32px !important; 
+	 padding-left: 32px !important; 
+	 padding-bottom: 32px !important;  
+	 padding-top: 32px !important;
+	 margin-top: 50px;
+}
+.bem-form{
+	background: rgba(255, 255, 255, 0.7);
+	font-weight: bold;
+	padding-left: 5px;
+}
+.bem-pros{
+	display:inline-block; 
+	max-width:100%;
+	min-width: 350px;
+	min-height: 210px;  
+	max-height: 210px;
+	height:auto;
+	margin-top: 50px; 
+}
+.head-slogans{ 
+	padding: 100px 0px 100px 0px;
+}
+.box{ 
+	-webkit-transition: all 0.3s ease; /* Safari */
+  	transition: all 0.3s ease;
+}
+.box:hover{
+	background: rgba(200,200,200,0.5);
+}
+.pros-tittle{
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+} 
+.disp-tittle{
+	color: black;
+	text-align: left;
+	font-weight: bold;
+	font-size: 20px;
+} 
+.disp-text{
+	color: grey;
+}
+.box a:hover{
+	text-decoration: none;
+}
+/********************
+*   Slog Styles   *
+********************/
+.slog-img{
+	width: 100%;
+	min-width: 100%;
+	height: auto;
+	padding-top: 100px;
+	max-height: 900px;
+}
+.slog-h1{
+	font-size: 40px;
+	padding: 50px 0px 30px 0px;
+	font-weight: bolder;
+}
+.slog-p{
+	font-size: 15px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+/********************
+*   Footer Styles   *
+********************/ 
+.footer{
+	margin: 50px 0px 50px 0px;
+	font-size: 15px;
+	font-weight: bold; 
+	letter-spacing: 1px;
+}
+/********************
+*   Article Styles   *
+********************/
+.prop-tittle{
+	font-weight: bolder;
+	text-align: center;
+	margin-top: 50px;
+}
+.prop-desc{
+	text-align: justify;
+	font-size: 18px;
+	margin-top: 30px;
+}
+.prop-cost{
+	font-size: 25px;
+	font-weight: bold;
+}
+.prop-dir{
+	text-align: center;
+}
+.item{
+	margin-top: 50px;
+}
+.photo-gallery{
+	margin-bottom: 100px;
+}
+.prop-adds{
+	color: #00C063;
+	margin-top: 20px;
+	font-size: 25px;
+	font-weight: bold;
+}
+.fa-adds{
+	color: #00C063;
+}
+.add-box{
+	border: solid 1px #00C063;
+	margin-bottom: 20px;
+}
+.add-box:hover{
+	background-color: rgba(233, 255, 233, 0.3);
+}
+/********************
+*   Mobile Styles   *
+********************/
+@media only screen and (max-width: 650px) {
+	img.bem-header{
+		width: 100%;
+	}
+	div.collapse.navbar-collapse a{  
+		transition: all .0s !important ;
+		-webkit-transition: all .0s ; 
+		text-align: center;
+		width: auto;
+	} 
+	.prop-tittle{
+		font-weight: bolder;
+		font-size: 25px;
+		text-align: center;
+		margin-top: 50px;
+	}
+	.prop-dir{
+		font-size: 22px;	
+		text-align: center;
+	}
+/* Slog */
+	.slog-img{ 
+		padding-top: 30px;
+	}
+	.slog-h1{
+		font-size: 40px;
+		padding: 5px 0px 5px 0px;
+		font-weight: bolder;
+	} 
+}
+
+
